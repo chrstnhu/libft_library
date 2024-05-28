@@ -31,12 +31,16 @@ typedef struct s_list
 }		t_list;
 
 //Number
+int		ft_abs(int i);
 int		ft_atoi(const char *nptr);
+long		ft_atol(const char *str);
+long long	ft_atoll(const char *str);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);
 int		ft_isascii(int c);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
+int		ft_isspace(char c);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 char	*ft_itoa(int n);
